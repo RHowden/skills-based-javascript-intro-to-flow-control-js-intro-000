@@ -14,15 +14,14 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-  switch (age) {
-    case age < 13:
-        return "You are a kid"
-        break; // break out of switch statement once code executed
-    case age >= 13 && age <= 19:
-        return "You are a teenager"
-        break; // break out of switch statement once code executed
-    default:  // all other cases
-        return "You are a grownup"
+  if(age < 13){
+    return "You are a kid"
+  }
+  else if(age >= 13 && age <= 19){
+    return "You are a teenager"
+  }
+  else {
+    return "You are a grownup"
   }
 }
 
