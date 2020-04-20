@@ -18,7 +18,7 @@ function ageChecker(age) {
     case age < 13:
         return "You are a kid"
         break; // break out of switch statement once code executed
-    case (age >= 13 && age <= 19):
+    case age >= 13 && age <= 19:
         return "You are a teenager!"
         break; // break out of switch statement once code executed
     default:  // all other cases
